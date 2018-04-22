@@ -3,11 +3,13 @@
 * **Source**:- [https://github.com/TeamWin/android_device_xiaomi_land](https://github.com/TeamWin/android_device_xiaomi_land)
 -----------------------------------------------------------------------
 
-TWRP device configuration for Xiaomi Redmi 3S/Prime/3X
-=============================
+
+
+ Xiaomi Redmi 3S/Prime/3X
+==========================
 
  Device specifications
- =============================
+ =======================
 
 Basic   | Spec Sheet
 -------:|:-------------------------
