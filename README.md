@@ -5,7 +5,7 @@
 
 
 
- Xiaomi Redmi 3S/Prime/3X
+ Xiaomi Redmi 3S/Prime/3X (Land)
 ==========================
 
  Device specifications
