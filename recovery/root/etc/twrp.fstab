@@ -6,6 +6,7 @@
 /system_image   emmc      /dev/block/bootdevice/by-name/system               flags=backup=0;flashimg=1
 /data           ext4      /dev/block/bootdevice/by-name/userdata             flags=length=-16384
 /cache          ext4      /dev/block/bootdevice/by-name/cache                flags=display="Cache"
+/cust           ext4      /dev/block/bootdevice/by-name/cust             flags=display="Cust";backup=0
 
 /vendor         ext4      /dev/block/bootdevice/by-name/cust                 flags=display="Vendor";backup=1;wipeingui
 /vendor_image   emmc      /dev/block/bootdevice/by-name/cust                 flags=backup=0;flashimg=1
@@ -15,7 +16,7 @@
 /efs1           emmc      /dev/block/bootdevice/by-name/modemst1             flags=display="EFS";backup=1
 /efs2           emmc      /dev/block/bootdevice/by-name/modemst2             flags=backup=1;subpartitionof=/efs1
 /firmware       vfat      /dev/block/bootdevice/by-name/modem                flags=backup=1;display=MODEM;mounttodecrypt;fsflags="rw,shortname=lower,uid=1000,gid=1026,dmask=227,fmask=337,context=u:object_r:firmware_file:s0"
-/persist        ext4      /dev/block/bootdevice/by-name/persist              flags=display="Persist";backup=1
+/persist        emmc      /dev/block/bootdevice/by-name/persist              flags=display="Persist";backup=1;flashimg=1
 /sdcard1        auto      /dev/block/mmcblk1p1                               flags=display="MicroSD";storage;wipeingui;removable
 /usb-otg        auto      /dev/block/sda1                                    flags=display="USB Storage";storage;wipeingui;removable
 /splash         emmc      /dev/block/bootdevice/by-name/splash               flags=display="Boot Logo";backup=1;flashimg=1
