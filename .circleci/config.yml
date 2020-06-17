@@ -10,7 +10,7 @@ jobs:
       CODENAME: 'land'
       MAINTAINER: '@raza231198'
       BUILD_LUNCH: 'omni_land-eng'
-      PB_OFFICIAL: 'true'
+      TEST_BUILD: 'true'
       CHANGELOG: |
         " - Sync Last Source"
     working_directory: /home/builder/pitchblack
